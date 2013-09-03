@@ -12,5 +12,5 @@ class HTMLView(BrowserView):
     def __call__(self, *args, **kw):
         return self.template(self.context)
 
-InitializeClass(BuyableView)
+InitializeClass(HTMLView)
 
