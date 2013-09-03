@@ -1,0 +1,6 @@
+
+<div class="type-dexterity-document content-body">
+    <h1 tal:content="context/Title" />
+    <p class="documentDescription"  tal:content="context/Description" />
+    <div class="body" tal:condition="context/getText" tal:content="structure context/getText" />
+</div>
