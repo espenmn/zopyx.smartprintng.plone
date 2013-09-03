@@ -2,7 +2,7 @@ from ..compatible import InitializeClass
 from Products.Five.browser import BrowserView
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
-class BuyableView(BrowserView):
+class HTMLView(BrowserView):
     """ View for bda plone shop, buyable.
         (testing how it works)
     """
